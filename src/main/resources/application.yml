@@ -1,0 +1,11 @@
+#日志配置文件
+logging:
+  config: classpath:logback-spring.xml
+
+#SpringBoot服务端口号
+server:
+  port: 8089
+
+#Netty Server端口号
+netty:
+  port: 2222
